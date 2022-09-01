@@ -106,7 +106,8 @@ $ cd dopefolio
 $ git remote remove origin
 ```
 
-<br/>
+<br>
+
 To use npm commands on the Raspberry Pi,
 1. Install Nodejs:
 ```
@@ -127,8 +128,6 @@ $ npm run compile:scss
 ```
 
 Once you run `npm run compile:scss`, then open the `index.html` inside your favorite browser or using the live server extension.
-<br><br>
-
 
 
 <br>

@@ -121,6 +121,14 @@ $ npm run compile:scss
 ```
 
 Once you run `npm run compile:scss`, then open the `index.html` inside your favorite browser or using the live server extension.
+<br><br>
+
+To install npm on the Raspberry Pi,
+1. Enter:
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 <br>
 

@@ -107,6 +107,12 @@ $ git remote remove origin
 ```
 
 <br/>
+To use npm commands on the Raspberry Pi,
+1. Install Nodejs:
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 Then you can install the dependencies
 
@@ -123,12 +129,7 @@ $ npm run compile:scss
 Once you run `npm run compile:scss`, then open the `index.html` inside your favorite browser or using the live server extension.
 <br><br>
 
-To install npm on the Raspberry Pi,
-1. Enter:
-```
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
+
 
 <br>
 

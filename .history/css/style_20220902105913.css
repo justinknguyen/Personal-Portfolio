@@ -72,9 +72,7 @@ textarea {
       font-size: 4.5rem; } }
 
 .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 .typed-out{
   overflow: hidden;
@@ -84,11 +82,10 @@ textarea {
     typing 1s forwards;
   font-size: 1.6rem;
   width: 0;
-  display: inline-block;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 55% }
+  to { width: 100% }
 }
 
 .heading-sec__mb-bg {

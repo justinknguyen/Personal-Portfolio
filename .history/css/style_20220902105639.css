@@ -72,23 +72,20 @@ textarea {
       font-size: 4.5rem; } }
 
 .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 .typed-out{
   overflow: hidden;
-  border-right: .15em solid rgb(255, 255, 255);
+  border-right: .15em solid orange;
   white-space: nowrap;
   animation: 
     typing 1s forwards;
   font-size: 1.6rem;
   width: 0;
-  display: inline-block;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 55% }
+  to { width: 100% }
 }
 
 .heading-sec__mb-bg {

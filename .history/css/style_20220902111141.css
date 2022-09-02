@@ -72,11 +72,10 @@ textarea {
       font-size: 4.5rem; } }
 
 .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 .typed-out{
+  margin-left: auto;
   overflow: hidden;
   border-right: .15em solid rgb(255, 255, 255);
   white-space: nowrap;
@@ -88,7 +87,7 @@ textarea {
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 55% }
+  to { width: 100% }
 }
 
 .heading-sec__mb-bg {

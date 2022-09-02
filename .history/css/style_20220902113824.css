@@ -67,7 +67,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 27.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
 
@@ -81,14 +81,14 @@ textarea {
   border-right: .15em solid rgb(255, 255, 255);
   white-space: nowrap;
   animation: 
-    typing 1.5s forwards;
+    typing 1s forwards;
   font-size: 1.6rem;
-  width: auto;
+  width: 0;
   display: inline-block;
 }
 @keyframes typing {
-  from { max-width: 0 }
-  to { max-width: 100% }
+  from { width: 0 }
+  to { width: 100% }
 }
 
 .heading-sec__mb-bg {

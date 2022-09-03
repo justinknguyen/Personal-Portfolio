@@ -1,11 +1,11 @@
 .home-hero {
   color: #fff;
-  // background: linear-gradient(
-  //     to right,
-  //     rgba($themeClrPrimary, 0.8),
-  //     rgba($themeClrPrimary, 0.8)
-  //   ),
-  background: url(../../assets/png/background.png);
+  background: linear-gradient(
+      to right,
+      rgba($themeClrPrimary, 0.8),
+      rgba($themeClrPrimary, 0.8)
+    ),
+    url(../../assets/png/background.png);
   background-position: center;
 
   height: 100vh;
@@ -188,12 +188,12 @@
 }
 
 .contact {
-  // background: linear-gradient(
-  //     to right,
-  //     rgba($themeClrPrimary, 0.8),
-  //     rgba($themeClrPrimary, 0.8)
-  //   ),
-  background: url(../../assets/png/background.png);
+  background: linear-gradient(
+      to right,
+      rgba($themeClrPrimary, 0.8),
+      rgba($themeClrPrimary, 0.8)
+    ),
+    url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 

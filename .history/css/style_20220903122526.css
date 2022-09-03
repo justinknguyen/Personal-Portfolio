@@ -71,26 +71,6 @@ textarea {
     .heading-primary {
       font-size: 4.5rem; } }
 
-      .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .typed-out{
-        overflow: hidden;
-        border-right: .15em solid rgb(255, 255, 255);
-        white-space: nowrap;
-        animation: 
-          typing 2s forwards;
-        font-size: 1.6rem;
-        width: auto;
-        display: inline-block;
-      }
-      @keyframes typing {
-        from { max-width: 0 }
-        to { max-width: 100% }
-      }
-
 .heading-sec__mb-bg {
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
@@ -215,25 +195,19 @@ textarea {
     .home-hero {
       height: unset;
       min-height: unset; } }
-
   .home-hero__socials {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
     /* border: 2px solid #eee;
     border-left: 2px solid #eee; */
     transform: translateX(-50%); }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
-        top: 85%;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; } }
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; } }
 
   .home-hero__mouse-scroll-cont {
     position: absolute;
@@ -244,15 +218,15 @@ textarea {
       .home-hero__mouse-scroll-cont {
         display: none; } }
   .home-hero__social {
-    width: 8rem; }
+    width: 5rem; }
   .home-hero__social-icon-link {
     width: 100%;
     display: block;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
     transition: background .3s; }
-    .home-hero__social-icon-link:hover {}
-      /* background: rgba(255, 255, 255, 0.1); } */
+    .home-hero__social-icon-link:hover {
+      background: rgba(255, 255, 255, 0.1); }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
   .home-hero__social-icon {

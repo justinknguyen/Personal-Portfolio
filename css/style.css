@@ -67,9 +67,12 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 390px) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 4rem; } }
+  @media only screen and (min-width: 390px) and (max-width: 500px) {
+    .heading-primary {
+      font-size: 5rem; } }
 
       .container{
         display: flex;
@@ -201,9 +204,12 @@ textarea {
   text-align: center;
   width: 100%;
   line-height: 1.6; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 390px) {
     .text-primary {
       font-size: 2rem; } }
+  @media only screen and (min-width: 390px) and (max-width: 500px) {
+    .text-primary {
+      font-size: 2.2rem; } }
 
 .d-none {
   display: none; }
@@ -216,14 +222,20 @@ textarea {
   min-height: 80rem;
   max-height: 120rem;
   position: relative; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 390px) {
     .home-hero {
-      height: 70vh;
-      min-height: 70rem; } }
+      height: 80vh;
+      min-height: 70rem;
+      max-height: 100rem; } }
+  @media only screen and (min-width: 390px) and (max-width: 500px)  {
+    .home-hero {
+      height: 91vh;
+      min-height: 80rem;
+      max-height: 120rem; } }
 
   .home-hero__socials {
     position: absolute;
-    top: 70%;
+    top: 72%;
     left: 50%;
     display: flex;
     flex-direction: row;
@@ -232,7 +244,7 @@ textarea {
     /* border: 2px solid #eee;
     border-left: 2px solid #eee; */
     transform: translateX(-50%); }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 37.5em) {
       .home-hero__socials {
         top: 72%;
         display: flex;
@@ -269,12 +281,19 @@ textarea {
     transform: translate(-50%, -50%);
     max-width: 90rem;
     width: 92%; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 390px) {
       .home-hero__content {
         padding: 22rem 0 13rem 0;
         margin: auto;
         position: static;
         transform: translate(0, 0); } }
+    @media only screen and (min-width: 390px) and (max-width: 500px) {
+      .home-hero__content {
+        padding: 29rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0); } }
+
   .home-hero__info {
     margin: 3rem auto 0 auto;
     max-width: 80rem; }

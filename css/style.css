@@ -78,10 +78,11 @@ textarea {
       }
       .typed-out{
         overflow: hidden;
-        border-right: .15em solid rgb(255, 255, 255);
+        border-right: .15em solid transparent;
         white-space: nowrap;
         animation: 
-          typing 2s forwards;
+          typing 3s forwards,
+          blink-caret 3.5s;
         font-size: 1.6rem;
         width: auto;
         display: inline-block;
@@ -89,6 +90,10 @@ textarea {
       @keyframes typing {
         from { max-width: 0 }
         to { max-width: 100% }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: white; }
       }
 
 .heading-sec__mb-bg {
@@ -192,7 +197,7 @@ textarea {
 
 .text-primary {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 3rem;
   text-align: center;
   width: 100%;
   line-height: 1.6; }
@@ -213,8 +218,8 @@ textarea {
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
-      height: unset;
-      min-height: unset; } }
+      height: 70vh;
+      min-height: 70rem; } }
 
   .home-hero__socials {
     position: absolute;
@@ -229,7 +234,7 @@ textarea {
     transform: translateX(-50%); }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
-        top: 80%;
+        top: 72%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -266,7 +271,7 @@ textarea {
     width: 92%; }
     @media only screen and (max-width: 37.5em) {
       .home-hero__content {
-        padding: 19rem 0 13rem 0;
+        padding: 22rem 0 13rem 0;
         margin: auto;
         position: static;
         transform: translate(0, 0); } }

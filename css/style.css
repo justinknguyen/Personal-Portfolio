@@ -21,7 +21,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   font-family: inherit; }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; 
   scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
@@ -377,10 +377,12 @@ textarea {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
 
+
 .contact {
   background: url(../../assets/png/background.png);
   background-size: cover;
   background-position: center; }
+  
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
@@ -647,7 +649,7 @@ textarea {
     display: block;
     text-decoration: none;
     padding: 2.5rem 3rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #333;
     text-align: right;
     border-bottom: 1px solid #eee;

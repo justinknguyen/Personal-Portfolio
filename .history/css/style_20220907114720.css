@@ -781,7 +781,7 @@ textarea {
   cursor: pointer;
   position: absolute;
   top: 40%;
-  right: 92.5%;
+  right: 90%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -812,16 +812,6 @@ textarea {
   right: 5%;
   border-radius: 3px 3px 3px 3px;
 }
-@media only screen and (max-width: 390px) {
-  .next {
-    right: 0%;
-  } 
-  }
-@media only screen and (min-width: 390px) and (max-width: 500px) {
-  .next {
-    right: 0%;
-  } 
-  }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {

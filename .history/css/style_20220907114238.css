@@ -781,19 +781,20 @@ textarea {
   cursor: pointer;
   position: absolute;
   top: 40%;
-  right: 92.5%;
+  right: 85%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 56px;
   color: black;
   font-weight: bold;
   font-size: 50px;
   transition: 0.6s ease;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 @media only screen and (max-width: 390px) {
   .prev, .next {
+    padding: 16px;
     top: 43.4%;
     right: 87%;
     font-size: 30px;
@@ -801,6 +802,7 @@ textarea {
   }
 @media only screen and (min-width: 390px) and (max-width: 500px) {
   .prev, .next {
+    padding: 16px;
     top: 43.5%;
     right: 89%;
     font-size: 30px;
@@ -809,19 +811,9 @@ textarea {
 
 /* Position the "next button" to the right */
 .next {
-  right: 5%;
-  border-radius: 3px 3px 3px 3px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-@media only screen and (max-width: 390px) {
-  .next {
-    right: 0%;
-  } 
-  }
-@media only screen and (min-width: 390px) and (max-width: 500px) {
-  .next {
-    right: 0%;
-  } 
-  }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {

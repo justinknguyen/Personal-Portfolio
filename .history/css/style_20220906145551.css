@@ -217,7 +217,6 @@ textarea {
 .home-hero {
   color: #fff;
   background: url(../../assets/png/background.png);
-  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -357,7 +356,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start; }
+    align-items: left; }
     @media only screen and (max-width: 56.25em) {
       .projects__row-content {
         align-items: center; } }

@@ -217,7 +217,6 @@ textarea {
 .home-hero {
   color: #fff;
   background: url(../../assets/png/background.png);
-  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -364,6 +363,7 @@ textarea {
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
+      margin-right: 10rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {

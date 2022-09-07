@@ -217,7 +217,6 @@ textarea {
 .home-hero {
   color: #fff;
   background: url(../../assets/png/background.png);
-  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;

@@ -249,6 +249,7 @@ textarea {
     transform: translateX(-50%); }
     @media only screen and (max-width: 37.5em) {
       .home-hero__socials {
+        top: 72%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -781,14 +782,14 @@ textarea {
   background-color: #fafafa;
   cursor: pointer;
   position: absolute;
-  top: -5.75%;
+  top: 0%;
   /* bottom: 27.83%; */
-  right: 112%;
+  right: 96%;
   width: auto;
   margin-top: -22px;
 
-  padding-top: 1000px;
-  padding-bottom: 909px;
+  padding-top: 909px;
+  padding-bottom: 1000px;
   padding-left: 80px;
   padding-right: 20px;
 
@@ -801,14 +802,9 @@ textarea {
 }
 @media only screen and (max-width: 390px) {
   .prev, .next {
-    background-color: rgb(255, 255, 255);
-    padding-top: 16px;
-    padding-bottom: 16px;
- 
-    top: 0.8%;
+    padding: 16px;
     right: 87%;
     font-size: 30px;
-    border-radius: 3px 3px 3px 3px;
   } 
   }
 @media only screen and (min-width: 390px) and (max-width: 500px) {
@@ -820,31 +816,23 @@ textarea {
     top: 0.8%;
     right: 87%;
     font-size: 30px;
-    border-radius: 3px 3px 3px 3px;
   } 
   }
 
 /* Position the "next button" to the right */
 .next {
-  right: -22.5%;
+  right: 0%;
   padding-left: 20px;
-  padding-right: 80px;
   /* border-radius: 3px 3px 3px 3px; */
 }
 @media only screen and (max-width: 390px) {
   .next {
-    right: -12%;
-    padding-left: 20px;
-    padding-right: 40px;
-    border-radius: 3px 3px 3px 3px;
+    right: 0%;
   } 
   }
 @media only screen and (min-width: 390px) and (max-width: 500px) {
   .next {
-    right: -7%;
-    padding-left: 20px;
-    padding-right: 40px;
-    border-radius: 3px 3px 3px 3px;
+    right: 0%;
   } 
   }
 

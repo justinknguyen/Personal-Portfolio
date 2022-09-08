@@ -808,7 +808,6 @@ textarea {
     top: 0.8%;
     right: 87%;
     font-size: 30px;
-    border-radius: 3px 3px 3px 3px;
   } 
   }
 @media only screen and (min-width: 390px) and (max-width: 500px) {
@@ -820,7 +819,6 @@ textarea {
     top: 0.8%;
     right: 87%;
     font-size: 30px;
-    border-radius: 3px 3px 3px 3px;
   } 
   }
 
@@ -833,18 +831,16 @@ textarea {
 }
 @media only screen and (max-width: 390px) {
   .next {
-    right: -12%;
+    right: 0%;
     padding-left: 20px;
-    padding-right: 40px;
-    border-radius: 3px 3px 3px 3px;
+    padding-right: 20px;
   } 
   }
 @media only screen and (min-width: 390px) and (max-width: 500px) {
   .next {
-    right: -7%;
+    right: 0%;
     padding-left: 20px;
-    padding-right: 40px;
-    border-radius: 3px 3px 3px 3px;
+    padding-right: 20px;
   } 
   }
 

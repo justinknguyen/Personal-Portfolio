@@ -350,7 +350,6 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    height: auto;
     display: block;
     object-fit: contain; }
   .projects__row-content {

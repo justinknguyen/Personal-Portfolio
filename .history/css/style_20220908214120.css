@@ -350,8 +350,8 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    height: auto;
-    display: block;
+    width: 100%;
+    vertical-align: middle;
     object-fit: contain; }
   .projects__row-content {
     padding: 2rem 0;

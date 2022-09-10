@@ -22,7 +22,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 
 html {
   font-size: 62.5%;
-  scroll-behavior: auto; }
+  scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 59%; } }
@@ -224,13 +224,8 @@ textarea {
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
-  position: relative; 
-}
-@media only screen and (max-width: 37.5em) {
-  .home-hero {
-    height: unset;
-    min-height: unset; } }
-  /* @media only screen and (max-width: 390px) {
+  position: relative; }
+  @media only screen and (max-width: 390px) {
     .home-hero {
       height: 80vh;
       min-height: 70rem;
@@ -239,11 +234,11 @@ textarea {
     .home-hero {
       height: 91vh;
       min-height: 80rem;
-      max-height: 120rem; } } */
+      max-height: 120rem; } }
 
   .home-hero__socials {
     position: relative; 
-    top: 72%;
+    /* top: 72%; */
     left: 50%;
     display: flex;
     flex-direction: row;
@@ -252,12 +247,10 @@ textarea {
     /* border: 2px solid #eee;
     border-left: 2px solid #eee; */
     transform: translateX(-50%); 
+    margin-top: 10px;
     }
     @media only screen and (max-width: 37.5em) {
       .home-hero__socials {
-        top: 0%;
-        margin-top: -80px;
-        padding-bottom: 100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -292,13 +285,7 @@ textarea {
     transform: translate(-50%, -50%);
     max-width: 90rem;
     width: 92%; }
-    @media only screen and (max-width: 37.5em) {
-      .home-hero__content {
-        padding: 19rem 0 13rem 0;
-        margin: auto;
-        position: static;
-        transform: translate(0, 0); } }
-    /* @media only screen and (max-width: 390px) {
+    @media only screen and (max-width: 390px) {
       .home-hero__content {
         padding: 22rem 0 13rem 0;
         margin: auto;
@@ -309,7 +296,7 @@ textarea {
         padding: 29rem 0 13rem 0;
         margin: auto;
         position: static;
-        transform: translate(0, 0); } } */
+        transform: translate(0, 0); } }
 
   .home-hero__info {
     margin: 3rem auto 0 auto;

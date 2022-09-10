@@ -350,9 +350,13 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
+    width: 100%;
     height: auto;
     display: block;
-    object-fit: contain; }
+    object-fit: contain; 
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%);}
   .projects__row-content {
     padding: 2rem 0;
     display: flex;

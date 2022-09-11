@@ -48,8 +48,8 @@ function plusSlides(n) {
 
 // Thumbnail image controls
 function currentSlide(n) {
-  document.getElementById("projects").scrollIntoView({behavior: 'smooth'});
   showSlides(slideIndex = n);
+  document.getElementById("projects").scrollIntoView();
 }
 
 function showSlides(n) {

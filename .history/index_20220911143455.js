@@ -48,8 +48,8 @@ function plusSlides(n) {
 
 // Thumbnail image controls
 function currentSlide(n) {
-  document.getElementById("projects").scrollIntoView({behavior: 'smooth'});
   showSlides(slideIndex = n);
+  window.location.hash = "./index.html#projects"";
 }
 
 function showSlides(n) {

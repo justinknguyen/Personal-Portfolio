@@ -799,11 +799,11 @@ textarea {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 0%;
+  top: -1%;
   /* bottom: 27.83%; */
   right: 85%;
   width: auto;
-  margin-top: -30px;
+  margin-top: 0px;
 
   padding-top: 20px;
   padding-bottom: 20px;
@@ -819,8 +819,6 @@ textarea {
 }
 @media only screen and (max-width: 390px) {
   .prev, .next {
-    margin-top: 0px;
-
     background-color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -833,8 +831,6 @@ textarea {
   }
 @media only screen and (min-width: 390px) and (max-width: 600px) {
   .prev, .next {
-    margin-top: 0px;
-    
     background-color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;

@@ -1,655 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Justin Nguyen</title>
-    <meta name="description" content="Personal Portfolio Website" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="./assets/png/favicon.png">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Justin Nguyen</title>
+  <meta name="description" content="Personal Portfolio Website" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- **** Header of Homepage **** -->
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/justin.png"
-              alt="Justin Nguyen Logo Image"
-              class="header__logo-img"
-            />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./assets/png/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- **** Header of Homepage **** -->
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/justin.png" alt="Justin Nguyen Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Justin Nguyen</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./keyboards.html" class="header__link">Keyboards</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./keyboards.html">Keyboards</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- END Header -->
+
+  <!-- **** Hero Section of Homepage **** -->
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <div class="container">
+        <div class="typed-out">
+          <h1 class="heading-primary">Justin Nguyen</h1>
+        </div>
+      </div>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Software & Electrical Engineer Graduate
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+        <br> <br>
+        <a href="https://www.dropbox.com/scl/fi/zd0j8jy3cx71wm0cune9m/Justin-Nguyen-Resume.pdf?rlkey=74z4u1ofo99lwfasvwdktog11&dl=0"
+          class="btn btn--bg">Resume</a>
+      </div>
+    </div>
+    <br> <br>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a rel="noreferrer" href="https://www.linkedin.com/in/justin-kyle-nguyen"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a rel="noreferrer" href="https://github.com/justinknguyen"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
+          <img src="./assets/png/github-ico2.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section of Homepage **** -->
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Hi, I'm Justin and thank you for your interest! This website showcases my skillset,
+          projects, and my hobby with custom keyboards!
+        </span>
+      </h2>
+
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              My name is
+              <strong>Justin Nguyen</strong>
+              and I'm a <strong> Software & Electrical Engineer </strong> located in
+              Calgary, Alberta. I hold a B.Sc. in Electrical Engineering and
+              a M.Eng. in Software Engineering.
+            </p>
+            <p class="about__content-details-para">
+              During my co-op, I worked at NOVA Chemicals as a <strong>project manager</strong>
+              for electrical and instrumentation & control projects. Additionally, I completed an externship at
+              MakeSens where I took on roles as a <strong>hardware engineer</strong> and a
+              <strong>software engineer</strong>, designing a new sensor board and developing the Android app.
+            </p>
+            <p class="about__content-details-para">
+              I love creating and designing <strong>microcontroller projects</strong>
+              as a hobby, and I was able to apply that knowledge and passion to my work experience.
+              I've also expanded this hobby towards <strong>custom mechanical keyboards</strong>,
+              which I love to build and share. I aspire to create and design my own custom keyboard soon!
+            </p>
           </div>
-          <span class="header__logo-sub">Justin Nguyen</span>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a
-                href="./keyboards.html"
-                class="header__link"
-                >Keyboards</a
-              >
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">C</div>
+            <div class="skills__skill">C++</div>
+            <div class="skills__skill">C#</div>
+            <div class="skills__skill">Rust</div>
+            <div class="skills__skill">Python</div>
+            <div class="skills__skill">Java</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">SQL</div>
+            <div class="skills__skill">NoSQL</div>
+            <div class="skills__skill">Swift</div>
+            <div class="skills__skill">VHDL</div>
+            <div class="skills__skill">MIPS Assembly</div>
+            <div class="skills__skill">MATLAB</div>
+
+            <div class="skills__skill">.NET Framework</div>
+            <div class="skills__skill">ASP.NET</div>
+            <div class="skills__skill">React.js</div>
+            <div class="skills__skill">Node.js</div>
+            <div class="skills__skill">Material UI</div>
+            <div class="skills__skill">Spring Boot</div>
+            <div class="skills__skill">REST API</div>
+            <div class="skills__skill">AWS</div>
+            <div class="skills__skill">MySQL</div>
+            <div class="skills__skill">PostgresSQL</div>
+            <div class="skills__skill">MongoDB</div>
+
+            <div class="skills__skill">PySpark</div>
+            <div class="skills__skill">PyTorch</div>
+            <div class="skills__skill">OpenCV</div>
+            <div class="skills__skill">NumPy</div>
+            <div class="skills__skill">Pandas</div>
+            <div class="skills__skill">Scikit-learn</div>
+
+            <div class="skills__skill">Machine Learning</div>
+            <div class="skills__skill">Deep Learning</div>
+            <div class="skills__skill">Computer Vision</div>
+
+            <div class="skills__skill">JUnit</div>
+            <div class="skills__skill">FPGA</div>
+            <div class="skills__skill">ARM</div>
+
+            <div class="skills__skill">Agile</div>
+            <div class="skills__skill">IoT</div>
+            <div class="skills__skill">GitHub</div>
+            <div class="skills__skill">Docker</div>
+            <div class="skills__skill">Altium</div>
+            <div class="skills__skill">Arduino</div>
+            <div class="skills__skill">Raspberry Pi</div>
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+    </div>
+  </section>
+  <!-- END About Section -->
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
+  <section id="references" class="references sec-pad">
+    <div class="main-container">
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">References</span>
+        <span class="heading-sec__sub">
+          Below are a list of my references obtained from past work experiences.
+          You can view the references on my
+          <u><a rel="noreferrer" href="https://www.linkedin.com/in/justin-kyle-nguyen/" target="_blank">
+              LinkedIn</a></u>.
+        </span>
+      </h2>
 
-            <li class="header__sm-menu-link">
-              <a
-                href="./keyboards.html"
-                >Keyboards</a
-              >
-            </li>
+      <div class="references__content">
+        <div class="references__row">
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- END Header -->
-
-    <!-- **** Hero Section of Homepage **** -->
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <div class="container">
-          <div class="typed-out">
-            <h1 class="heading-primary">Justin Nguyen</h1>
+          <div class="references__row-content">
+            <h3 class="references__row-content-title">Allen Sandwell <br> MakeSens - Chief Technical Officer</h3>
+            <p class="references__row-content-desc">
+              "Justin worked for us in the summer of 2022 as a full stack developer for our DynaSens remote sensing and
+              monitoring technology.
+              He was a very valuable asset working in both our software and hardware groups due to his education
+              background in both areas.
+              I would recommend him to anyone looking for someone that understands multiple areas of electronics and
+              software design, and how they integrate together to create a complete solution."
+              - Allen Sandwell
+            </p>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/allen-sandwell-44790836/"
+              class="btn btn--med btn--theme dynamicBgClr" target="_blank">LinkedIn</a>
           </div>
-        </div>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Software & Electrical Engineer
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-          <!-- <br> <br>
-          <a href="https://www.dropbox.com/s/0w4063gbnavn3mo/Justin%20Nguyen%20-%20Software%20Engineering.pdf?dl=0" class="btn btn--bg">Resume</a> -->
-        </div>
-      </div>
-      <br> <br>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a 
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/justin-kyle-nguyen" 
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-            target="_blank"
-          >
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            rel="noreferrer"
-            href="https://github.com/justinknguyen"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-            target="_blank"
-          >
-            <img
-              src="./assets/png/github-ico2.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
+          <div class="references__row-content">
+            <h3 class="references__row-content-title">Eric Nickel <br> MacDon - Engineering Simulation Specialist</h3>
+            <p class="references__row-content-desc">
+              "Justin worked on a software capstone project for us in early 2023. In this project he showed good
+              competence in OpenCV, Python, and used ROS2 to tie multiple programs together on a computer vision
+              project. Most importantly, Justin did a great job at creatively tackling an very open ended problem and
+              coming up with ideas on how to make the software perform well while being robust in varying real life
+              scenarios. I would wholeheartedly recommend Justin for other software work where creativity and problem
+              solving are required."
+              - Erick Nickel
+            </p>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/ericnickel/"
+              class="btn btn--med btn--theme dynamicBgClr" target="_blank">LinkedIn</a>
+          </div>
 
-    <!-- **** About Section of Homepage **** -->
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- **** Projects Section of Homepage **** -->
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">1 / 2</div> -->
+
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">My Personal Projects</span>
           <span class="heading-sec__sub">
-            Hi, I'm Justin and thank you for your interest! This website showcases my skillset, 
-            projects, and my hobby with custom keyboards!
+            Below are a list of <strong>personal</strong> projects.
+            You can view my
+            <u><a rel="noreferrer" href="https://github.com/justinknguyen" target="_blank">
+                GitHub</a></u>
+            if you'd like to see more of my work.
           </span>
         </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                My name is 
-                <strong>Justin Nguyen</strong>
-                and I'm a <strong> Software & Electrical Engineer </strong> located in
-                Calgary, Alberta. I hold a B.Sc. in Electrical Engineering and
-                an M.Eng. in Software Engineering.
-              </p>
-              <p class="about__content-details-para">
-              During my internship I worked at NOVA Chemicals as a <strong>project manager</strong> 
-                for Instrument & Control and Electrical projects. I've recently completed my externship at MakeSens Inc.
-                where I worked as a <strong>PCB designer</strong> and <strong>software developer</strong>. 
-                I designed a new sensor board and helped develop the Android app.
-              </p>
-              <p class="about__content-details-para">
-                I love creating and designing <strong>microcontroller projects</strong>
-                as a hobby, and I was able to apply that knowledge and passion to my work experience. 
-                I've also expanded this hobby towards <strong>custom mechanical keyboards</strong>, 
-                which I love to build and share! I aspire to create and design my own custom keyboard soon!
-              </p>
+        <div class="projects__content">
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/spotify.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 50%; position: relative; left: 50%; transform: translateX(-50%);" />
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">BeatBind - Spotify Global Hotkeys</h3>
+              <p class="projects__row-content-desc">
+                This background <strong>Python</strong> Windows application utilizes the global_hotkeys module to listen
+                for basic hotkeys,
+                allowing users to easily control Spotify without the window focused. The app leverages the power of
+                Spotify's Web API through the use of Spotipy,
+                providing seamless integration between the app and the music streaming platform.
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/BeatBind"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
           </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">C</div>
-              <div class="skills__skill">C++</div>
-              <div class="skills__skill">Java</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">Matlab</div>
-              <div class="skills__skill">MIPS Assembly</div>
-              <div class="skills__skill">VHDL</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">iOS</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">Spring Boot</div>
-              <div class="skills__skill">AWS</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">PySpark</div>
-              <div class="skills__skill">Machine Learning</div>
-              <div class="skills__skill">IoT</div>
-              <div class="skills__skill">GitHub</div>
-              <div class="skills__skill">Altium</div>
-              <div class="skills__skill">Arduino</div>
-              <div class="skills__skill">Raspberry Pi</div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/iot-1.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 50%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">IoT Notification Button</h3>
+              <p class="projects__row-content-desc">
+                A button that sends IoT notifications using Pushbullet, Telegram, and IFTTT.
+                The purpose of this device was to send quick notifications to individuals in a household,
+                saving your voice from yelling for them! Built on a prototype board, incased in a 3D-printed case,
+                and programmed on an ESP32. While inactive, it saves power by going into sleep mode.
+                These projects were programmed in <strong>C++</strong> using Arduino IDE.
+              </p>
+              <a rel="noreferrer"
+                href="https://github.com/justinknguyen/IoT-Projects/blob/main/ESP32%20-%20Dinner/Dinner_ESP32.ino"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/jpeg/ios-ss1.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 70%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">iOS Messaging App</h3>
+              <p class="projects__row-content-desc">
+                Born from a desire to revive a school project that was put to a sudden halt. The purpose of this iOS app
+                was to send bluetooth
+                messages to an ESP32 connected to another through LoRa. Bluetooth integration is not complete, however,
+                the stylistic base of the app has been completed. Built in Xcode using <strong>Swift</strong>.
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/iOS-Messaging-App"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/prisoner-ss.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 80%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">100 Prisoners Riddle</h3>
+              <p class="projects__row-content-desc">
+                From a comment made by a friend, I was inspired to create a game from a riddle! The solution to the
+                riddle intrigued us,
+                and we wanted to put it to the test by making an interactive terminal game in <strong>Python</strong>.
+                Here is the
+                <u><a rel="noreferrer" href="https://www.youtube.com/watch?v=iSNsgj1OCLA" target="_blank">
+                    YouTube link</a></u>
+                if you'd like to learn more about the riddle and solution!
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/prisoner-riddle"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/piguide-ss.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 100%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Pi-Guide</h3>
+              <p class="projects__row-content-desc">
+                The Raspberry Pi is an incredibly useful device, enchancing my smart home and provides valuable learning
+                experiences with Linux!
+                With so many applications to install, I decided to create a guide to document all of the projects I've
+                done with the Pi. It helps
+                me immensely with reproducibility and modifications, and I hope it helps others too!
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/Pi-Guide"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- END About Section -->
 
-    <!-- **** Projects Section of Homepage **** -->
-    <section id="projects" class="projects sec-pad">
-        <div class="main-container">
+      <div class="mySlides fade">
+        <!-- <div class="numbertext">2 / 2</div> -->
 
-          <div class="mySlides fade">
-            <!-- <div class="numbertext">1 / 2</div> -->
-
-            <h2 class="heading heading-sec heading-sec__mb-bg">
-              <span class="heading-sec__main">Personal Projects</span>
-              <span class="heading-sec__sub">
-                Below are a list of <strong>personal</strong> projects. 
-                You can view my 
-                <u><a rel="noreferrer" href="https://github.com/justinknguyen" target="_blank">
-                  GitHub</a></u>
-                if you'd like to see more of my work.
-              </span>
-            </h2>
-            <div class="projects__content">
-              
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/spotify.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 50%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Spotify Global Hotkeys</h3>
-                  <p class="projects__row-content-desc">
-                    This background <strong>Python</strong> Windows application utilizes the global_hotkeys module to listen for basic hotkeys, 
-                    allowing users to easily control Spotify without the window focused. The app leverages the power of Spotify's Web API through the use of Spotipy, 
-                    providing seamless integration between the app and the music streaming platform.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/Spotify-Global-Hotkeys"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/iot-1.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 50%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">IoT Notification Button</h3>
-                  <p class="projects__row-content-desc">
-                    A button that sends IoT notifications using Pushbullet, Telegram, and IFTTT.
-                    The purpose of this device was to send quick notifications to individuals in a household, 
-                    saving your voice from yelling for them! Built on a prototype board, incased in a 3D-printed case,
-                    and programmed on an ESP32. While inactive, it saves power by going into sleep mode. 
-                    These projects were programmed in <strong>C++</strong> using Arduino IDE.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/IoT-Projects/blob/main/ESP32%20-%20Dinner/Dinner_ESP32.ino"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/jpeg/ios-ss1.jpg"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 70%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">iOS Messaging App</h3>
-                  <p class="projects__row-content-desc">
-                    Born from a desire to revive a school project that was put to a sudden halt. The purpose of this iOS app was to send bluetooth
-                    messages to an ESP32 connected to another through LoRa. Bluetooth integration is not complete, however,
-                    the stylistic base of the app has been completed. Built in Xcode using <strong>Swift</strong>.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/iOS-Messaging-App"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/prisoner-ss.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 80%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">100 Prisoners Riddle</h3>
-                  <p class="projects__row-content-desc">
-                    From a comment made by a friend, I was inspired to create a game from a riddle! The solution to the riddle intrigued us,
-                    and we wanted to put it to the test by making an interactive terminal game in <strong>Python</strong>. Here is the 
-                    <u><a rel="noreferrer" href="https://www.youtube.com/watch?v=iSNsgj1OCLA" target="_blank">
-                      YouTube link</a></u>
-                    if you'd like to learn more about the riddle and solution!
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/prisoner-riddle"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/piguide-ss.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 100%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Pi-Guide</h3>
-                  <p class="projects__row-content-desc">
-                    The Raspberry Pi is an incredibly useful device, enchancing my smart home and provides valuable learning experiences with Linux!
-                    With so many applications to install, I decided to create a guide to document all of the projects I've done with the Pi. It helps
-                    me immensely with reproducibility and modifications, and I hope it helps others too!
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/Pi-Guide"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">School & Work Projects</span>
+          <span class="heading-sec__sub">
+            Below are a list of <strong>school</strong> and <strong>work</strong> projects.
+            You can view my
+            <u><a rel="noreferrer" href="https://github.com/justinknguyen" target="_blank">
+                GitHub</a></u>
+            if you'd like to see more of my work.
+          </span>
+        </h2>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/movie-website.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+              style="width: 100%; height: 100%; position: relative; left: 50%; transform: translateX(-50%);" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">React & Spring Boot Websites</h3>
+            <p class="projects__row-content-desc">
+              Within the courses ENSF 607, 608, and 614, I chose to create websites on <strong>React</strong> and
+              <strong>Spring Boot</strong>.
+              One website was for a <strong>Student Registration System</strong>, where an Admin user is able to login
+              and edit a database hosted on AWS. The Admin is able to
+              edit courses, students, and enroll/unenroll students. Another website I created was a <strong>Movie Ticket
+                System</strong>, where a user is able to login, sign up, or continue as a guest.
+              The user is able to select a Theatre, Movie, Showtime, and a Seat, then a ticket is generated and added to
+              the user's account. Both websites are hosted on GitHub Pages.
+            </p>
+            <a rel="noreferrer" href="https://github.com/justinknguyen/react-spring-project"
+              class="btn btn--med btn--theme dynamicBgClr" target="_blank">Student Repo Link</a>
+            <br>
+            <a rel="noreferrer" href="https://github.com/justinknguyen/movie-ticket-system"
+              class="btn btn--med btn--theme dynamicBgClr" target="_blank">Movie Repo Link</a>
+          </div>
+        </div>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/DYNASENS_2.png" alt="Software cScreenshot" class="projects__row-img" loading="lazy"
+                style="width: 100%; position: relative; left: 50%; top: 10%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">DynaSens App</h3>
+              <p class="projects__row-content-desc">
+                An Android application I helped develop on my externship with MakeSens.
+                In the couple weeks I had, I added some functionalities such as bluetooth device memory and
+                reconnection, device scanner filter,
+                and popup dialogs. I also made multiple visual changes and bug fixes.
+                It was coded in <strong>Java</strong> with Android Studio.
+              </p>
+              <a rel="noreferrer" href="http://www.makesens.ca/sensors.html"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Product Link</a>
             </div>
           </div>
-
-          <div class="mySlides fade">
-            <!-- <div class="numbertext">2 / 2</div> -->
-
-            <h2 class="heading heading-sec heading-sec__mb-bg">
-              <span class="heading-sec__main">School & Work Projects</span>
-              <span class="heading-sec__sub">
-                Below are a list of <strong>school</strong> and <strong>work</strong> projects.
-                You can view my 
-                <u><a rel="noreferrer" href="https://github.com/justinknguyen" target="_blank">
-                  GitHub</a></u>
-                if you'd like to see more of my work.
-              </span>
-            </h2>
-            <div class="projects__row">
-              <div class="projects__row-img-cont">
-                <img src="./assets/png/movie-website.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
-                  style="width: 100%; height: 100%; position: relative; left: 50%; transform: translateX(-50%);" />
-              </div>
-              <div class="projects__row-content">
-                <h3 class="projects__row-content-title">React & Spring Boot Websites</h3>
-                <p class="projects__row-content-desc">
-                  Within the courses ENSF 607, 608, and 614, I chose to create websites on <strong>React</strong> and <strong>Spring Boot</strong>.
-                  One website was for a <strong>Student Registration System</strong>, where an Admin user is able to login and edit a database hosted on AWS. The Admin is able to 
-                  edit courses, students, and enroll/unenroll students. Another website I created was a <strong>Movie Ticket System</strong>, where a user is able to login, sign up, or continue as a guest.
-                  The user is able to select a Theatre, Movie, Showtime, and a Seat, then a ticket is generated and added to the user's account. Both websites are hosted on GitHub Pages.
-                </p>
-                <a rel="noreferrer" href="https://github.com/justinknguyen/react-spring-project"
-                  class="btn btn--med btn--theme dynamicBgClr" target="_blank">Student Repo Link</a>
-                  <br>
-                <a rel="noreferrer" href="https://github.com/justinknguyen/movie-ticket-system"
-                  class="btn btn--med btn--theme dynamicBgClr" target="_blank">Movie Repo Link</a>
-              </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/pickit.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 100%; position: relative; left: 50%; transform: translateX(-50%);" />
             </div>
-            <div class="projects__content">
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/DYNASENS_2.png"
-                    alt="Software cScreenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 100%; position: relative; left: 50%; top: 10%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">DynaSens App</h3>
-                  <p class="projects__row-content-desc">
-                    An Android application I helped develop on my externship with MakeSens. 
-                    In the couple weeks I had, I added some functionalities such as bluetooth device memory and reconnection, device scanner filter,
-                    and popup dialogs. I also made multiple visual changes and bug fixes.
-                    It was coded in <strong>Java</strong> with Android Studio.
-                  </p>
-                  <a
-                    rel="noreferrer" href="http://www.makesens.ca/sensors.html"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Product Link</a
-                  >
-                </div>
-              </div>
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/pickit.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 100%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">PICKIT</h3>
-                  <p class="projects__row-content-desc">
-                    Programmed a PICKIT microcontroller using <strong>C</strong> in MPLAB to achieve real-time applications, such as a stopwatch and multimeter. 
-                    Interrupts were an important concept to utilize in order to make these applications achievable. 
-                    These projects were done during my ENCM 511 course.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/PICKIT"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/pikabot.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 45%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Parallax Robot</h3>
-                  <p class="projects__row-content-desc">
-                    Using a Parallax Propeller microcontroller and GPIO devices, I created a mini robot with a group of friends during ENGG 300.
-                    This was programmed in <strong>C</strong> using SimpleIDE. The robot was able to display four emotions: happy, sad, angry, and fear.
-                    These emotions can be triggered with certain interactions with various GPIO devices, such as an ultrasonic sensor, flex sensor, and
-                    a light senor.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/PikaBot"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./assets/png/waves.png"
-                    alt="Software Screenshot"
-                    class="projects__row-img"
-                    loading="lazy"
-                    style="width: 120%; height: 100%; position: relative; left: 50%; transform: translateX(-50%);"
-                  />
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Wave Generation & Modulation</h3>
-                  <p class="projects__row-content-desc">
-                    Utilizing <strong>VHDL</strong> in ENGG 453, I programmed a DE10-Lite FPGA board in Quartus Prime. 
-                    The goal was to generate various waveforms with variable amplitude and frequency. With the use of a distance sensor and voltmeter,
-                    we were able to perform frequency and amplitude modulation. The modulation was then represented through a buzzer with an output of
-                    differing pitch and loudness accordingly.
-                  </p>
-                  <a
-                    rel="noreferrer" href="https://github.com/justinknguyen/Wave-Generator-and-Modulation"
-                    class="btn btn--med btn--theme dynamicBgClr"
-                    target="_blank"
-                    >Repo Link</a
-                  >
-                </div>
-              </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">PICKIT</h3>
+              <p class="projects__row-content-desc">
+                Programmed a PICKIT microcontroller using <strong>C</strong> in MPLAB to achieve real-time applications,
+                such as a stopwatch and multimeter.
+                Interrupts were an important concept to utilize in order to make these applications achievable.
+                These projects were done during my ENCM 511 course.
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/PICKIT"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
             </div>
           </div>
-
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/pikabot.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 45%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Parallax Robot</h3>
+              <p class="projects__row-content-desc">
+                Using a Parallax Propeller microcontroller and GPIO devices, I created a mini robot with a group of
+                friends during ENGG 300.
+                This was programmed in <strong>C</strong> using SimpleIDE. The robot was able to display four emotions:
+                happy, sad, angry, and fear.
+                These emotions can be triggered with certain interactions with various GPIO devices, such as an
+                ultrasonic sensor, flex sensor, and
+                a light senor.
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/PikaBot"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/waves.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"
+                style="width: 120%; height: 100%; position: relative; left: 50%; transform: translateX(-50%);" />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Wave Generation & Modulation</h3>
+              <p class="projects__row-content-desc">
+                Utilizing <strong>VHDL</strong> in ENGG 453, I programmed a DE10-Lite FPGA board in Quartus Prime.
+                The goal was to generate various waveforms with variable amplitude and frequency. With the use of a
+                distance sensor and voltmeter,
+                we were able to perform frequency and amplitude modulation. The modulation was then represented through
+                a buzzer with an output of
+                differing pitch and loudness accordingly.
+              </p>
+              <a rel="noreferrer" href="https://github.com/justinknguyen/Wave-Generator-and-Modulation"
+                class="btn btn--med btn--theme dynamicBgClr" target="_blank">Repo Link</a>
+            </div>
+          </div>
         </div>
-        <br>
+      </div>
 
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-        </div>
-    </section>
-      <!-- END Projects Section -->
 
-      <!-- **** Contact Section of Homepage **** -->
-      <section id="contact" class="contact sec-pad dynamicBg">
-        <div class="main-container">
-          <h2 class="heading heading-sec heading-sec__mb-med">
-            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-            <span class="heading-sec__sub heading-sec__sub--lt">
-              I'd love to hear from you so please reach out to me! Be it opportunities or casual
-              conversations, I'm willing to talk about anything.
-            </span>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+  <!-- END Projects Section -->
+
+  <!-- **** Contact Section of Homepage **** -->
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          I'd love to hear from you so please reach out to me! Be it opportunities or casual
+          conversations, I'm willing to talk about anything.
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action="https://formspree.io/f/xvoyzgnp" method="POST" class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+              id="name" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
           </h2>
-          <div class="contact__form-container">
-            <form
-              action="https://formspree.io/f/xvoyzgnp"
-              method="POST"
-              class="contact__form">
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="name">Name</label>
-                <input
-                  required
-                  placeholder="Enter Your Name"
-                  type="text"
-                  class="contact__form-input"
-                  name="name"
-                  id="name"
-                />
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="email">Email</label>
-                <input
-                  required
-                  placeholder="Enter Your Email"
-                  type="text"
-                  class="contact__form-input"
-                  name="email"
-                  id="email"
-                />
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="message">Message</label>
-                <textarea
-                  required
-                  cols="30"
-                  rows="10"
-                  class="contact__form-input"
-                  placeholder="Enter Your Message"
-                  name="message"
-                  id="message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn--theme contact__btn">
-                Submit
-              </button>
-            </form>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/justin-kyle-nguyen">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/justinknguyen">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/github-ico2.png" alt="icon" />
+            </a>
           </div>
         </div>
-    </section>
-    <!-- END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/justin-kyle-nguyen">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/justinknguyen">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/github-ico2.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Justin Nguyen</h4>
-            <p class="main-footer__short-desc">
-              M.Eng. Software Engineer with a B.Sc. in Electrical Engineering. Always willing
-              to learn and improve my skillset.
-            </p>
-            <p class="main-footer__short-desc">
-              This website is hosted on my Raspberry Pi 4 Model B. You can view the steps
-                I've gone through on my
-                <u><a rel="noreferrer" href="https://github.com/justinknguyen/Pi-Guide" target="_blank">
-                  GitHub repo</a></u>
-                along with guides for many other applications!
-            </p>
-          </div>
-        </div>
-
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2022. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          > modified by
-          <a rel="noreferrer" target="_blank" href="https://justinknguyen.ca"
-            >Justin Nguyen</a
-          >.
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Justin Nguyen</h4>
+          <p class="main-footer__short-desc">
+            M.Eng. Software Engineer with a B.Sc. in Electrical Engineering. Always willing
+            to learn and improve my skillset.
+          </p>
+          <p class="main-footer__short-desc">
+            This website is hosted on my Raspberry Pi 4 Model B. You can view the steps
+            I've gone through on my
+            <u><a rel="noreferrer" href="https://github.com/justinknguyen/Pi-Guide" target="_blank">
+                GitHub repo</a></u>
+            along with guides for many other applications!
+          </p>
         </div>
       </div>
-    </footer>
-    <!-- END Footer Section -->
 
-    <script src="./index.js"></script>
-  </body>
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright 2022. Made by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a> modified by
+        <a rel="noreferrer" target="_blank" href="https://justinknguyen.ca">Justin Nguyen</a>.
+      </div>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+  <script src="./index.js"></script>
+</body>
+
 </html>

@@ -79,6 +79,8 @@ textarea {
   resize: none;
 }
 
+/* **** Heading Section of Homepage **** */
+
 .heading-primary {
   font-size: 8rem;
   text-transform: uppercase;
@@ -223,6 +225,8 @@ textarea {
   letter-spacing: 1px;
 }
 
+/* END Heading Section */
+
 .main-container {
   position: relative;
   max-width: 120rem;
@@ -302,6 +306,8 @@ textarea {
 .d-none {
   display: none;
 }
+
+/* **** Hero Section of Homepage **** */
 
 .home-hero {
   color: #fff;
@@ -435,6 +441,10 @@ textarea {
   text-align: center;
 }
 
+/* END Hero Section */
+
+/* **** About Section of Homepage **** */
+
 .about {
   background: #fafafa;
 }
@@ -481,7 +491,9 @@ textarea {
   margin-bottom: 4rem;
 }
 
+/* END About Section */
 
+/* **** References Section of Homepage **** */
 
 .references__row {
   display: grid;
@@ -548,6 +560,18 @@ textarea {
   }
 }
 
+.references__row-content-subtitle {
+  font-weight: 500;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .references__row-content-subtitle {
+    font-size: 2rem;
+  }
+}
+
 .references__row-content-desc {
   font-size: 1.8rem;
   color: grey;
@@ -562,6 +586,9 @@ textarea {
   }
 }
 
+/* END References Section */
+
+/* **** Projects Section of Homepage **** */
 
 .projects__row {
   display: grid;
@@ -642,8 +669,9 @@ textarea {
   }
 }
 
+/* END Projects Section */
 
-
+/* **** Contact Section of Homepage **** */
 
 .contact {
   background: url(../../assets/png/background.png);
@@ -756,6 +784,8 @@ textarea {
     width: 100%;
   }
 }
+
+/* END Contact Section */
 
 .project-cs-hero {
   color: #fff;
@@ -1058,6 +1088,8 @@ textarea {
   border-bottom: 0;
 }
 
+/* **** Footer Section of Homepage **** */
+
 .main-footer {
   background: #000;
   color: #fff;
@@ -1143,6 +1175,8 @@ textarea {
     padding: 3.5rem 0;
   }
 }
+
+/* END Footer Section */
 
 .skills {
   display: flex;
